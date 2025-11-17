@@ -17,7 +17,6 @@ mongoose.connect('mongodb://localhost:27017/portfolio')
         app.listen(port, ()=> {
             console.log("Servidor funcionando correctamente");
         });
-        
-        
     })
+    
     .catch(error => console.log(error));
